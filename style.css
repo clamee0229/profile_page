@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.head {
+    display: flex;
+    background-color: black;
+    color: White;
+    justify-content: center;
+}
+.head-content {
+    display: flex;
+    width: 64%;
+    flex-direction:row;
+    align-items: center;
+}
+
+#nav-title {
+    margin-right: 1.5rem;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+li {
+    margin-right: 1.5rem;
+    color: lightgray;
+}
+
+#active-link {
+    color: white;
+}
+
+#sign-out {
+    height: 50%;
+    width: 4.5rem;
+    color: whitesmoke;
+    background-color: royalblue;
+    margin-left: auto;
+    border: 0;
+}
+
+#card-head {
+    background-color: lightpink;
+    width: 825px;
+    height: 100px;
+    position: relative;
+    outline: 2px solid lightpink;
+    margin-bottom: 50px;
+}
+
+#user-profile-pic{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    padding: 2px;
+    background-color: white;
+}
+
+.card-icon {
+    width: auto;
+    height: 1rem;
+    display: inline-block;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.description {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+#location {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+#link {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+#profile-card {
+    border: 2px solid lightgray;
+    margin-bottom: 1.5rem;
+
+}
+
+#name {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+#main-content {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    padding: 1.2rem;
+}
+
+.friend-pic {
+    border-radius: 50%;
+    height: 40px;
+    border: 2px solid black;
+    margin-right: 1rem;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 2px solid darkslategray;
+    margin-bottom: 1.5rem;
+}
+
+.requests{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+}
+
+.request-icon{
+    height: 25px;
+}
+
+.col1{
+    display: flex;
+    flex: 2;
+    padding: 1.2rem;
+    flex-wrap: wrap;
+}
+.col2{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    padding: 1.2rem;
+}
+
+#accept-icon1 {
+    margin-left: auto;
+}
+
+#accept-icon2 {
+    margin-left: auto;
+}
+
+.education-text{
+    text-align: center;
+    padding-top: .5rem;
+}
+
+.black-box-head{
+    
+    text-align: center;
+    background-color: darkslategray;
+    color: white;
+    height: 4rem;
+}
+
+.friend-name {
+    font-weight: bold;
+}
+
+.connections {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+#view-more{
+    align-self: center;
+}

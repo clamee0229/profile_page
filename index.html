@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="head">
+      <div class="head-content">
+        <h1 id="nav-title">Profile</h1>
+        <ul>
+          <li>Home</li>
+          <li id="active-link">My Profile</li>
+          <li>Find Connections</li>
+        </ul>
+        <button id="sign-out">Sign out</button>
+      </div>
+    </div>
+    <div id="main-content">
+        <div class="col1">
+            <div id="profile-card">
+                <div id="card-head">
+                  <img id="user-profile-pic" src="./icons/user-circle.png" alt="User profile picture">
+                </div>
+                <h1 id="name">Chris LaMee</h1>
+                <img class="card-icon" src="./icons/map-marker.png" alt="map marker icon">
+                <h3 id="location">Anderson, IN</h3>
+                <p class="description">Developer | Engineer | Problem Solver</p>
+                <p class="description">Master of shadows and the Internet!</p>
+                <img class="card-icon" src="./icons/gear.png" alt="gear icon">
+                <p id="link"><a href="#">edit profile</a></p>
+            </div>
+            <div class = "content-container">
+                <h3 class="black-box-head">Education</h3>
+                <h3 class="education-text" id="dojo">Coding Dojo - Full Stack Bootcamp</h3>
+                <p class="education-text" id="dates">Sep 2021 - Dec 2021</p>
+                <p class="education-text" id="education-desc">Triple black belt in Python, MERN, and C#</p>
+            </div>
+        </div>
+        <div class="col2">
+            <div class = "content-container">
+                <h3 class="black-box-head">Connection Requests</h3>
+                <div class="requests">
+                    <img class="friend-pic" src="./images/todd-s.jpg" alt="Todd S profile pic">
+                    <p class="friend-name">Todd S</p>
+                    <img class= "request-icon" id="accept-icon1" src="./icons/accept-circle.png" alt="Accept icon">
+                    <img class= "request-icon" src="./icons/close-circle.png" alt="Ignore Icon">
+                </div>
+                <div class="requests">
+                    <img class="friend-pic" src="./images/phil-s.jpg" alt="Phil K profile pic">
+                    <p class="friend-name">Phil K</p>
+                    <img class= "request-icon" id="accept-icon2" src="./icons/accept-circle.png" alt="Accept icon">
+                    <img class= "request-icon" src="./icons/close-circle.png" alt="Ignore Icon">
+                </div>
+            </div>
+            <div class = "content-container">
+                <h3 class="black-box-head">Your Connections</h3>
+                <div class="connections">
+                    <img class="friend-pic" src="./images/adrien-s.jpg" alt="Adrian D profile pic">
+                    <p class="friend-name">Adrian D</p>
+                </div>
+                <div class="connections">
+                  <img class="friend-pic" src="./images/anne-s.jpg" alt="Anne J profile pic">
+                  <p class="friend-name">Anne J</p>
+                </div>
+                <div class="connections">
+                  <img class="friend-pic" src="./images/alayne-s.jpg" alt="Alayne T profile pic">
+                  <p class="friend-name">Alayne T</p>
+                </div>
+                <div class="connections">
+                  <img class="friend-pic" src="./images/arry-s.jpg" alt="Arry Y profile pic">
+                  <p class="friend-name">Arry Y</p>
+                </div>
+                <div id="view-more"><a href="#">View More</a></div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
