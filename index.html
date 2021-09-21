@@ -42,22 +42,22 @@
         </div>
         <div class="col2">
             <div class = "content-container">
-                <h3 class="black-box-head">Connection Requests</h3>
-                <div class="requests">
+                <h3 class="black-box-head"> <span id="connection-requests">2</span> Connection Requests</h3>
+                <div id="todd" class="requests">
                     <img class="friend-pic" src="./images/todd-s.jpg" alt="Todd S profile pic">
                     <p class="friend-name">Todd S</p>
-                    <img class= "request-icon" id="accept-icon1" src="./icons/accept-circle.png" alt="Accept icon">
-                    <img class= "request-icon" src="./icons/close-circle.png" alt="Ignore Icon">
+                    <img onclick="disappearTodd();connectionsUp()" class= "request-icon" id="accept-icon1" src="./icons/accept-circle.png" alt="Accept icon">
+                    <img onclick="disappearTodd();connectionsDown()" class= "request-icon" src="./icons/close-circle.png" alt="Ignore Icon">
                 </div>
-                <div class="requests">
+                <div id="phil" class="requests">
                     <img class="friend-pic" src="./images/phil-s.jpg" alt="Phil K profile pic">
                     <p class="friend-name">Phil K</p>
-                    <img class= "request-icon" id="accept-icon2" src="./icons/accept-circle.png" alt="Accept icon">
-                    <img class= "request-icon" src="./icons/close-circle.png" alt="Ignore Icon">
+                    <img onclick="disappearPhil();connectionsUp()" class= "request-icon" id="accept-icon2" src="./icons/accept-circle.png" alt="Accept icon">
+                    <img onclick="disappearPhil();connectionsDown()" class= "request-icon" src="./icons/close-circle.png" alt="Ignore Icon">
                 </div>
             </div>
             <div class = "content-container">
-                <h3 class="black-box-head">Your Connections</h3>
+                <h3 class="black-box-head"><span id="connections-total">501</span>Your Connections</h3>
                 <div class="connections">
                     <img class="friend-pic" src="./images/adrien-s.jpg" alt="Adrian D profile pic">
                     <p class="friend-name">Adrian D</p>
@@ -78,5 +78,6 @@
             </div>
         </div>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>

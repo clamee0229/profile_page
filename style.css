@@ -139,6 +139,7 @@ li {
 
 .request-icon{
     height: 25px;
+    cursor: pointer;
 }
 
 .col1{
@@ -168,8 +169,9 @@ li {
 }
 
 .black-box-head{
-    
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: darkslategray;
     color: white;
     height: 4rem;
@@ -187,4 +189,18 @@ li {
 
 #view-more{
     align-self: center;
+}
+
+#connections-total{
+    background-color: gray;
+    margin-right: 2em;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+#connection-requests{
+    background-color: gray;
+    margin-right: 2em;
+    border-radius: 50%;
+    padding: 5px;
 }
